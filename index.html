@@ -50,9 +50,10 @@
 
 	ul.news {
 	    list-style-type: disc;
-	    max-height: 100px;
-	    overflow-y: hidden; /* Hide vertical scrollbar */
+	    max-height: 125px;
+	    overflow-y: scroll; /* Hide vertical scrollbar */
 	    overflow-x: hidden; /* Hide horizontal scrollbar */
+		padding-right:10px;
 	    background-color: white;
 	    font-family: Times New Roman, fixed-width;
 	}
@@ -113,7 +114,7 @@
     </p>
 
     <p>
-	<b> News: </b> (scroll below to view older news)
+	<b> News: </b> (scroll to view older news)
 	<ul class="news">
 
 		<li> <em>Sep 25, 2024</em>: Paper on proximal causal inference with text has been accepted at NeurIPS 2024 -- <a href="https://arxiv.org/abs/2401.06687">camera-ready</a>.
